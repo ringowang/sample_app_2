@@ -30,6 +30,8 @@ end
 
 group :production do
   gem 'pg','0.18.4'
+  #下面语句为了部署heroku
+  gem 'rails_12factor'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
